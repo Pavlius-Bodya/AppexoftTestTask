@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./styles.scss";
+import "./RightPage.scss";
 import { useGetData } from "../../hooks/useGetData";
 
 export const RightPage = ({ url }) => {
