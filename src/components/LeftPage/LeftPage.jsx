@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useGetData } from "../../hooks/useGetData";
-import "./styles.scss";
+import "./LeftPage.scss";
 import Button from "@mui/material/Button";
 
 const PAGE_SIZE = 12;
