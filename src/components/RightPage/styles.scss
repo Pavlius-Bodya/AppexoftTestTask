@@ -1,0 +1,42 @@
+.RightPage {
+  width: 50%;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__Container {
+    background-color: #ababab;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__Image {
+    width: 150px;
+    height: 150px;
+  }
+
+  &__Details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16;
+    max-width: 400px;
+  }
+
+  &__List {
+    list-style-type: none;
+    padding: 0;
+    margin: 16px 0;
+    text-align: center;
+  }
+
+  &__Item {
+    margin: 8px 0;
+  }
+}
