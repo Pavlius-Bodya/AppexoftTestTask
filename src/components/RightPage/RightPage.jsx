@@ -17,12 +17,12 @@ export const RightPage = ({ url }) => {
       setDetails({ image, name, abilities, types });
     }
   }, [data]);
-  console.log(details);
+
   return (
     <div className="RightPage">
       <div className="RightPage__Container">
-        {details && (
-          <>
+        {details ? (
+          <div className="RightPage__Row">
             <img
               src={details.image}
               alt="Pokemon"
@@ -47,7 +47,9 @@ export const RightPage = ({ url }) => {
                 ))}
               </ul>
             </div>
-          </>
+          </div>
+        ) : (
+          <div className="RightPage__choose">Choose a Pokemon</div>
         )}
       </div>
     </div>
